@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & About | Joy in A Box</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <a href="index.html">Joy in A Box</a>
+            </div>
+            <div class="header-icons">
+                <a href="#" aria-label="Account"><i class="fas fa-user"></i></a>
+                <a href="#" aria-label="Favorites"><i class="fas fa-heart"></i></a>
+                <a href="#" aria-label="Cart"><i class="fas fa-shopping-bag"></i></a>
+            </div>
+        </div>
+        <nav>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="decor.html">Décor <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="decor.html#wall-art">Wall Art</a></li>
+                        <li><a href="decor.html#vases">Vases</a></li>
+                        <li><a href="decor.html#lighting">Lighting</a></li>
+                    </ul>
+                </li>
+                <li><a href="made-to-order.html">Made-To-Order</a></li>
+                <li><a href="fluff-snuggles.html">Fluff & Snuggles</a></li>
+                <li><a href="contact.html">Contact/About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>About & Contact</h1>
+            <p>We'd love to hear from you</p>
+        </section>
+
+        <div class="contact-about-layout">
+            <section class="about-brand">
+                <div class="container">
+                    <h2 class="section-title">Our Story</h2>
+                    <p>Founded with a passion for creating spaces that feel like home, Joy in A Box brings together artisans and design lovers. Every piece in our collection is thoughtfully curated to blend timeless elegance with everyday comfort.</p>
+                    <p>We believe that your home should be a reflection of your unique story. That's why we offer both curated collections and made-to-order pieces that speak to your personal style.</p>
+                    <ul class="brand-values">
+                        <li><i class="fas fa-check-circle"></i> Ethically sourced materials</li>
+                        <li><i class="fas fa-check-circle"></i> Handcrafted by skilled artisans</li>
+                        <li><i class="fas fa-check-circle"></i> Sustainable packaging</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="contact-form-section">
+                <div class="container">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="company-info">
+                <div class="container">
+                    <h2 class="section-title">Visit Us</h2>
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Studio</h3>
+                            <p>45 Decor Avenue<br>New York, NY 10001</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>lerato@joyinabox.com<br>support@joyinabox.com</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-phone-alt"></i>
+                            <h3>Phone</h3>
+                            <p>+266 56502271<br>Mon-Fri 9am-6pm EST</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Joy in A Box</h3>
+                <p>Bringing elegance and comfort to homes worldwide since 2024.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p><i class="fas fa-envelope"></i> lerato@joyinabox.com</p>
+                <p><i class="fas fa-phone"></i> +266 56502271</p>
+                <p><i class="fas fa-map-marker-alt"></i> 45 Decor Avenue, New York</p>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Get 10% off your first order + weekly inspiration.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Joy in A Box. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="floating-buttons">
+        <button id="scrollTop" class="float-btn"><i class="fas fa-arrow-up"></i></button>
+        <a href="https://wa.me/1234567890?text=Hello! I have a question about your products" class="float-btn whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
